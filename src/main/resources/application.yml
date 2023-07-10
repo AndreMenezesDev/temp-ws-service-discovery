@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: ws-sesp-service-discovery
+    
+eureka:
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
